@@ -120,7 +120,27 @@ class Layout extends StatelessWidget {
         Image.network(
             "https://www.unifacef.com.br/wp-content/uploads/2016/02/logo-branco.png")
       ]),
-      Placeholder()
+      Expanded(
+          child: Container(
+              color: Colors.yellow[200], // Ou: Colors.yellow.shade200
+              padding: const EdgeInsets.all(20),
+              child: Column(
+                  // "Estica" os filhos em toda a largura disponível
+                  // (no caso do Column, no eixo cruzado)
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text("Exemplo de layout Flutter",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                            color: Colors.indigo.shade600,
+                            fontSize: 30,
+                            fontWeight: FontWeight.bold)),
+                    const Text("Desenvolvido por Fausto G. Cintra",
+                        textAlign: TextAlign.right,
+                        style: TextStyle(
+                            fontStyle: FontStyle.italic, fontSize: 16))
+                  ])))
     ]);
   }
 }
