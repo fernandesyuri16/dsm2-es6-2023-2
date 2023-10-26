@@ -1,3 +1,5 @@
+// ignore_for_file: unused_element, unused_field
+
 import 'package:flutter/material.dart';
 import '../data/atracao.dart';
 

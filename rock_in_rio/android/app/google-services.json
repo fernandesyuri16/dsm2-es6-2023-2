@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "838964424246",
+    "project_id": "rock-in-rio-016",
+    "storage_bucket": "rock-in-rio-016.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:838964424246:android:aff61a2eed680fb5f47297",
+        "android_client_info": {
+          "package_name": "com.example.rock_in_rio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9otfALmFuRu8aCA9XxTGk1d4dBSc8cnA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
